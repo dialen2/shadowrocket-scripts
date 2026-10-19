@@ -159,6 +159,44 @@ DOMAIN-SUFFIX,fourhoi.com,PROXY
 DOMAIN-SUFFIX,missav.ws,PROXY 
 DOMAIN-SUFFIX,thisav.my,PROXY
 
+# ------TVB云播------#
+# 海外与需代理源站 / TMDB 图床
+DOMAIN-SUFFIX,tmdb.org,PROXY
+IP-CIDR,104.233.148.69/32,PROXY,no-resolve
+DOMAIN-SUFFIX,s3-tximg.top,PROXY
+# 主站与解析接口
+DOMAIN-SUFFIX,viptvb07.com,DIRECT
+DOMAIN-SUFFIX,hktvyb.top,DIRECT
+# 视频切片 CDN 播放流
+DOMAIN-SUFFIX,yzzy31-play.com,DIRECT
+# 国内主流平台海报与图床 CDN
+DOMAIN-SUFFIX,hitv.com,DIRECT
+DOMAIN-SUFFIX,puui.qpic.cn,DIRECT
+DOMAIN-SUFFIX,hdslb.com,DIRECT
+DOMAIN-SUFFIX,ykimg.com,DIRECT
+DOMAIN-SUFFIX,iqiyipic.com,DIRECT
+DOMAIN-SUFFIX,doubanio.com,DIRECT
+DOMAIN-SUFFIX,xmcdn.com,DIRECT
+DOMAIN-SUFFIX,360.cn,DIRECT
+# 第三方影视资源站图床 CDN
+DOMAIN-SUFFIX,ffzy888.com,DIRECT
+DOMAIN-SUFFIX,liangzipic.com,DIRECT
+DOMAIN-SUFFIX,lzipic.com,DIRECT
+DOMAIN-SUFFIX,picbf.com,DIRECT
+DOMAIN-SUFFIX,bfvp26.com,DIRECT
+DOMAIN-SUFFIX,yzzyimg.online,DIRECT
+DOMAIN-SUFFIX,67c6c7a.com,DIRECT
+DOMAIN-SUFFIX,imgzy360.com,DIRECT
+DOMAIN-SUFFIX,findjs.top,DIRECT
+DOMAIN-SUFFIX,qwapp.top,DIRECT
+DOMAIN-SUFFIX,wsyzy.org,DIRECT
+DOMAIN-SUFFIX,juquanquanapp.com,DIRECT
+DOMAIN-SUFFIX,dytt-img.com,DIRECT
+DOMAIN-SUFFIX,ctecdn.com,DIRECT
+# 关键词兜底
+DOMAIN-KEYWORD,viptvb,DIRECT
+DOMAIN-KEYWORD,yzzy,DIRECT
+
 #> 小淫虫-Tube 爬虫全链路分流规则
 #主站及接口
 DOMAIN-SUFFIX,xyc01.eu.cc,PROXY
@@ -180,6 +218,122 @@ DOMAIN-SUFFIX,sixnicexxs.cc,PROXY
 DOMAIN-SUFFIX,15260908.top,PROXY
 # 3. M3U8 视频流及切片 CDN
 DOMAIN-SUFFIX,v155p.com,DIRECT
+
+# ------夜勾心事------#
+# 封面海报图床 CDN
+DOMAIN-SUFFIX,[ckbhjpg2.top](ckbhjpg2.top),DIRECT
+# 核心主站与动态站点
+DOMAIN-SUFFIX,[ygxs.lol](ygxs.lol),DIRECT
+# 流媒体直链、切片与 Key 鉴权服务器
+DOMAIN-SUFFIX,[aim3u8.vip](aim3u8.vip),DIRECT 
+DOMAIN-SUFFIX,[aits1.vip](aits1.vip),DIRECT
+DOMAIN-SUFFIX,[thm3u8.co](thm3u8.co),DIRECT
+# 关键词兜底
+DOMAIN-KEYWORD,ygxs,DIRECT
+
+# > 麻豆影院 全链路分流规则集 (DIRECT)
+# > 更新时间: 2026-10-15
+# > 涵盖: 爬虫主站、封面图片CDN、正片m3u8切片播放CDN
+# > 去广告规则已同步更新
+# --- 主站与接口 ---
+DOMAIN-SUFFIX,1010953.xyz,DIRECT
+DOMAIN,mdyy.cc,DIRECT
+# --- 海报与静态图片 CDN ---
+DOMAIN-SUFFIX,abfrkjesk.com,DIRECT
+DOMAIN-SUFFIX,sbzytpimg5.com,DIRECT
+DOMAIN-SUFFIX,alicdn.com,DIRECT
+# --- 正片 HLS / M3U8 视频切片 CDN ---
+DOMAIN-SUFFIX,bfaskcdn.com,DIRECT
+
+# --- 小处女 系列源 ---
+DOMAIN-SUFFIX,jpxm3u8.com,DIRECT
+DOMAIN-SUFFIX,jpts1.top,DIRECT
+DOMAIN-SUFFIX,myacetweay.buzz,DIRECT
+DOMAIN-SUFFIX,bwzy.tv,DIRECT
+DOMAIN-SUFFIX,bwjpg.top,DIRECT
+
+
+# --- 桃花系列源 (THM3U8) ---
+DOMAIN-SUFFIX,thm3u8.vip,DIRECT
+DOMAIN-SUFFIX,thm3u8.co,DIRECT
+DOMAIN-SUFFIX,thts4.top,DIRECT
+
+# 暗夜蜜桃 (honeypeach.cc) 直连规则集 (DIRECT)
+# 主站与 API 网关
+DOMAIN-SUFFIX,honeypeach.cc,DIRECT
+DOMAIN-SUFFIX,golds1.top,DIRECT
+IP-CIDR,45.200.14.213/32,DIRECT,no-resolve
+# 正片与图片分发 CDN
+DOMAIN-SUFFIX,cloudfront.net,DIRECT
+# 动漫上游流媒体 (Hanime / HS日本4K动漫)
+DOMAIN,vdownload.hembed.com,DIRECT
+DOMAIN-SUFFIX,hembed.com,DIRECT
+DOMAIN-SUFFIX,hanime1.me,DIRECT
+DOMAIN-SUFFIX,hstream.moe,DIRECT
+# 视频与直播上游节点
+DOMAIN-KEYWORD,missav,DIRECT
+DOMAIN-KEYWORD,stripchat,DIRECT
+
+# > 浮生影视 (FongMi TV) 爬虫直连规则集
+# 业务主站与动态域名
+DOMAIN-SUFFIX,fushengr.cc,DIRECT
+DOMAIN,tv.fushengr.cc,DIRECT
+# 官方备用发布页
+DOMAIN-SUFFIX,madou2025.com,DIRECT
+DOMAIN-SUFFIX,kpw2026.com,DIRECT
+# 核心流媒体与图床 CDN
+DOMAIN,d32bg2g0w9aqg4.cloudfront.net,DIRECT
+DOMAIN-SUFFIX,tjacq.com,DIRECT
+DOMAIN,vsdsq.tjacq.com,DIRECT
+
+# --- 一直看 ---
+# > 入口调度与测速层
+DOMAIN-SUFFIX,yizk.net,DIRECT
+DOMAIN-SUFFIX,7kan.net,DIRECT
+# > 二级发布层
+DOMAIN-SUFFIX,10sky.cc,DIRECT
+DOMAIN-SUFFIX,1zk8.com,DIRECT
+DOMAIN-SUFFIX,5kan.net,DIRECT
+# > 业务落地主站池
+DOMAIN-SUFFIX,1zk.me,DIRECT
+DOMAIN-SUFFIX,1zk.top,DIRECT
+DOMAIN-SUFFIX,1zk.app,DIRECT
+DOMAIN-SUFFIX,54kk.net,DIRECT
+DOMAIN-SUFFIX,10sg.cc,DIRECT
+# > 图片与海报 CDN
+DOMAIN-SUFFIX,hs130.top,DIRECT
+DOMAIN-SUFFIX,98jpg.vip,DIRECT
+DOMAIN-SUFFIX,98jpg1.vip,DIRECT
+# > 正片流媒体 CDN
+DOMAIN-SUFFIX,hs100.top,DIRECT
+
+# > CartoonPorno - Main & Fallback Domains (DIRECT)
+DOMAIN-SUFFIX,cartoonporno.cc,DIRECT
+DOMAIN-SUFFIX,cartoonporno.xxx,DIRECT
+DOMAIN-SUFFIX,x99dh.com,DIRECT
+DOMAIN-SUFFIX,x99dh.vip,DIRECT
+DOMAIN-SUFFIX,x99dh.my,DIRECT
+DOMAIN-SUFFIX,x99dh.cc,DIRECT
+DOMAIN-SUFFIX,x99dh.one,DIRECT
+
+# > CartoonPorno - Media & Picture CDN (DIRECT)
+DOMAIN-SUFFIX,71352.men,DIRECT
+DOMAIN,vcdn1.cartoonporno.cc,DIRECT
+DOMAIN,cdn-pic.cartoonporno.cc,DIRECT
+
+# > 片吧影院 & 苹果CMS 媒体资源分流规则
+DOMAIN-SUFFIX,pbpb.tv,DIRECT
+DOMAIN-KEYWORD,pbpb,DIRECT
+DOMAIN-SUFFIX,mgtv.com,DIRECT
+DOMAIN-SUFFIX,qiyi.com,DIRECT
+DOMAIN-SUFFIX,v.qq.com,DIRECT
+DOMAIN-SUFFIX,youku.com,DIRECT
+
+# > 七猫短剧 & 媒体CDN直连分流
+DOMAIN-SUFFIX,bedfpk.cn,DIRECT
+DOMAIN-SUFFIX,7maoduanju.com,DIRECT
+DOMAIN,7cat-media.bedfpk.cn,DIRECT
+DOMAIN,7cat-pic.bedfpk.cn,DIRECT
 
 # == 1. 采集站切片去广告目标源 (DIRECT) ==
 # --- CKZY ---
