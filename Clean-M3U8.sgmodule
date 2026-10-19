@@ -7,10 +7,28 @@
 # 目前已收录站点：目前已收录站点：大鸡吧、爆草留学生、塘心次元、采花大盗、蝴蝶影院、午夜影视、深夜影院、吉利猫、GDD视频、V155P视频、8K视界、桃花影视、Vostrely视频、麻豆短剧、番茄影视、美人姬、量子/暴风系、陌陌一夜情、CK百花资源、爱爱系列、麻花视频、滴滴播系列、暗夜蜜桃、久久网
 
 [Rule]
+# ------快感研究所------#
+# 核心主站与 API 接口
+DOMAIN-SUFFIX,kuaigan47.top,DIRECT
+# 视频流媒体解析、直链与切片分发 CDN
+DOMAIN-SUFFIX,2608.xbv2608.com,DIRECT
+DOMAIN-SUFFIX,2609.fhv2026.com,DIRECT
+DOMAIN-SUFFIX,2609.lajiao2026.com,DIRECT
+DOMAIN-SUFFIX,2609.lbsl2026.com,DIRECT
+DOMAIN-SUFFIX,2609.senlin2026.com,DIRECT
+DOMAIN-SUFFIX,2609.sysl2026.com,DIRECT
+DOMAIN-SUFFIX,2609.v155p.com,DIRECT
+DOMAIN-SUFFIX,fqm3u8.cc,DIRECT
+DOMAIN-SUFFIX,iuewgnbvk.com,DIRECT
+DOMAIN-SUFFIX,lsbbf11.com,DIRECT
+DOMAIN-SUFFIX,sryndbsfvd.com,DIRECT
+DOMAIN-SUFFIX,vostrely.com,DIRECT
+# 关键词兜底
+DOMAIN-KEYWORD,kuaigan,DIRECT
+
 # ------久久网------#
 # 核心主站与发布页
 DOMAIN-SUFFIX,jiujiu.live,PROXY
-
 # 封面海报图床 CDN
 DOMAIN-SUFFIX,15260908.top,DIRECT
 DOMAIN-SUFFIX,cableav.tv,DIRECT
@@ -53,7 +71,6 @@ DOMAIN-SUFFIX,xbpic11.top,DIRECT
 DOMAIN-SUFFIX,xbpic261012.top,DIRECT
 IP-CIDR,23.225.11.173/32,DIRECT,no-resolve
 IP-CIDR,104.194.8.53/32,DIRECT,no-resolve
-
 # 视频流媒体解析、直链与切片分发 CDN
 DOMAIN-SUFFIX,bbffsl2025.com,DIRECT
 DOMAIN-SUFFIX,cdn2020.com,DIRECT
@@ -95,19 +112,18 @@ DOMAIN-SUFFIX,vostrely.com,DIRECT
 DOMAIN-SUFFIX,xbv2608.com,DIRECT
 DOMAIN-SUFFIX,yzn6b.xyz,DIRECT
 DOMAIN-SUFFIX,zsxsf.com,DIRECT
-
 # 关键词兜底
 DOMAIN-KEYWORD,jiujiu,PROXY
+
 #玩偶 木偶
 DOMAIN-SUFFIX,wogg.net,DIRECT
 DOMAIN-SUFFIX,888484.xyz,DIRECT
-
 DOMAIN-SUFFIX,666292.xyz,DIRECT
 DOMAIN-SUFFIX,666291.xyz,DIRECT
 DOMAIN-SUFFIX,333291.xyz,DIRECT
 DOMAIN-SUFFIX,muoua.top,DIRECT
-
 DOMAIN-SUFFIX,hjzhencai.top,DIRECT
+
 #可可追剧
 DOMAIN-SUFFIX,esadj.com,PROXY
 
@@ -160,10 +176,8 @@ DOMAIN-KEYWORD,hwzcfz,DIRECT
 # > 小穴生 / 蝴蝶影视 (kkb2) 全链路直连分流
 # 1. 爬虫主站及接口
 DOMAIN-SUFFIX,sixnicexxs.cc,PROXY
-
 # 2. 横向海报图片静态加速 CDN
 DOMAIN-SUFFIX,15260908.top,PROXY
-
 # 3. M3U8 视频流及切片 CDN
 DOMAIN-SUFFIX,v155p.com,DIRECT
 
