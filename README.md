@@ -9,13 +9,14 @@
 <p align="center">
   <b>精细化·自动化·极简美学的视频切片广告去除</b>
   <br>
-  <sub>影视 M3U8 通用去广告脚本（切片颗粒度级清洗版）</sub>
-  <sub>兼容: Surge / Loon / Quantumult X / Shadowrocket</sub>
-  <sub>name=蝴蝶影视 M3U8 贴片去广告合集</sub>
-  <sub>desc=自动清洗各采集站 M3U8 列表开头的 TS/图片切片广告及分流优化</sub>
-  <sub>category=Scripting</sub>
-  <sub>author=🦋 蝴蝶影视</sub>
-  <sub>Telegram群组：https://t.me/tvshare23</sub>
+  
+  - 影视 M3U8 通用去广告脚本（切片颗粒度级清洗版）</sub>
+  - 兼容: Surge / Loon / Quantumult X / Shadowrocket</sub>
+  - name=蝴蝶影视 M3U8 贴片去广告合集</sub>
+  - desc=自动清洗各采集站 M3U8 列表开头的 TS/图片切片广告及分流优化</sub>
+  - category=Scripting</sub>
+  - author=🦋 蝴蝶影视</sub>
+  - Telegram群组：https://t.me/tvshare23</sub>
 </p>
 
 ### 模块链接
